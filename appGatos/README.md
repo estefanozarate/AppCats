@@ -4,51 +4,30 @@
 
 ## Descripción
 
-[The CAT API and The CAT FACTS] es una aplicación móvil desarrollada con React Native que ofrece una experiencia interactiva con datos y fotos de gatos. Utiliza The Cat API para obtener imágenes aleatorias de gatos y Cloudinary para la gestión de las imágenes subidas por los usuarios.
-
-## Funcionalidades Principales
-
-- **Explorar Datos de Gatos**: Los usuarios pueden ver datos interesantes sobre gatos, actualizándose con cada interacción.
-- **Cámara y Subida de Imágenes**: La aplicación permite a los usuarios tomar fotos y subirlas a Cloudinary.
-- **Visualización de Imágenes de Gatos**: Después de cada subida de imagen, los usuarios pueden ver una imagen aleatoria de gato proporcionada por The Cat API.
+Esta aplicación es una aplicación móvil que proporciona datos interesantes sobre los gatos, así como la posibilidad de buscar imágenes de gatos y tomar fotografías para compartir. La información sobre gatos proviene de dos fuentes principales: el servicio Cat Fact API para datos sobre gatos y la Cat API para imágenes de gatos. Ejemplo:
 
 ## Casos de Uso
 
-- **Para Amantes de los Gatos**: Ideal para quienes disfrutan viendo imágenes de gatos y aprendiendo datos curiosos sobre ellos.
-- **Subida de Imágenes**: Usuarios que desean compartir imágenes y ver imágenes de gatos.
+Iniciar la Aplicación:
+El usuario inicia la aplicación y se cargan automáticamente hechos sobre gatos desde el Cat Fact API.
+La aplicación solicita permisos para acceder a la cámara del dispositivo.
+Explorar Hechos sobre Gatos:
 
-## Instalación
+El usuario desplaza la pantalla para explorar diferentes hechos sobre gatos.
+Cambiar el Hecho sobre Gatos:
 
-Para ejecutar [The CAT API and The CAT FACTS], necesitarás tener instalado Node.js, npm (incluido con Node.js) y Expo CLI. Sigue estos pasos:
+El usuario presiona el botón "Change fact" para ver un nuevo hecho sobre gatos.
+Tomar Fotos y Subirlas:
 
-1. Clona el repositorio:
-   ```
-   git clone [URL del repositorio]
-   ```
-2. Navega al directorio del proyecto:
-   ```
-   cd [react-native-lab]
-   ```
-3. Instala las dependencias:
-   ```
-   npm install
-   ```
+El usuario presiona el botón "Open Camera" para abrir la cámara y toma una foto.
+La foto se muestra en la aplicación y se sube a Cloudinary.
+Explorar Imágenes de Gatos:
 
-## Ejecución
+El usuario visualiza imágenes aleatorias de gatos obtenidas de The Cat API.
+Compartir Hechos sobre Gatos:
 
-Para ejecutar la aplicación en tu dispositivo local, sigue estos pasos:
+El usuario presiona el botón "Share Fact" para compartir el hecho actual sobre gatos con otras aplicaciones.
+Reiniciar la Aplicación:
 
-1. Inicia el servidor de desarrollo:
-   ```
-   expo start
-   ```
-2. Para ver la aplicación en tu dispositivo, escanea el código QR proporcionado por Expo con la aplicación Expo Go (disponible en Android e iOS).
+El usuario presiona el botón "Restart App" para reiniciar la aplicación y volver al primer hecho sobre gatos.
 
-## Contribuciones
-
-Las contribuciones son bienvenidas. Si tienes alguna mejora o corrección, por favor haz un fork del repositorio y envía un pull request.
-
-## Licencia
-
-Este proyecto está licenciado bajo [DBPUTEC], vea el archivo LICENSE para más detalles.
-```
